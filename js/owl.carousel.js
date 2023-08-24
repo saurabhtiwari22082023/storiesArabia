@@ -187,6 +187,7 @@ if ( typeof Object.create !== "function" ) {
 			base.$elem.find(".owl-wrapper").wrap("<div class=\"owl-wrapper-outer\">");
 			base.wrapperOuter = base.$elem.find(".owl-wrapper-outer");
 			base.$elem.css("display","block");
+			base.$elem.find(".owl-item").css("margin-left", "3rem");
 		},
 
 		baseClass : function(){
